@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(contactform));
             this.label1 = new System.Windows.Forms.Label();
             this.txtcontactid = new System.Windows.Forms.TextBox();
@@ -50,6 +51,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txtaddress = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.fadetimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -275,6 +277,10 @@
             this.label8.TabIndex = 21;
             this.label8.Text = "Address";
             // 
+            // fadetimer
+            // 
+            this.fadetimer.Tick += new System.EventHandler(this.fadetimer_Tick);
+            // 
             // contactform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -337,6 +343,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtaddress;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Timer fadetimer;
     }
 }
 

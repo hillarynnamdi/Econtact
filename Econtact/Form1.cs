@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace Econtact
 {
-    public partial class contactform : Form
+    public partial class contactform : Form 
     {
         public contactform()
         {
@@ -22,7 +22,7 @@ namespace Econtact
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            fadetimer.Start();
         }
 
   
@@ -32,6 +32,7 @@ namespace Econtact
 
 
             contactClass cc = new contactClass();
+            
             cc.FirstName = txtfirstname.Text;
             cc.LastName = txtlastname.Text;
             cc.Gender = cmbgender.Text;
@@ -197,6 +198,19 @@ namespace Econtact
 
 
 
+            }
+        }
+
+        private void fadetimer_Tick(object sender, EventArgs e)
+        {
+            if (this.Opacity > 0)
+            {
+                this.Opacity -= 0.075;
+            }
+            else
+            {
+                fadetimer.Stop();
+                Application.Exit();
             }
         }
     }
