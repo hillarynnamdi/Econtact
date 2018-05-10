@@ -1,0 +1,9 @@
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\bin\Debug\Econtact.exe.config
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\bin\Debug\Econtact.exe
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\bin\Debug\Econtact.pdb
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\obj\Debug\Econtact.csprojResolveAssemblyReference.cache
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\obj\Debug\Econtact.Properties.Resources.resources
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\obj\Debug\Econtact.csproj.GenerateResource.Cache
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\obj\Debug\Econtact.exe
+c:\users\acer\documents\visual studio 2017\Projects\Econtact\Econtact\obj\Debug\Econtact.pdb
+C:\Users\ACER\documents\visual studio 2017\Projects\Econtact\Econtact\obj\Debug\Econtact.contactform.resources
